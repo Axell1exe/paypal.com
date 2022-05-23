@@ -1,0 +1,74 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: rgb(0, 38, 70);
+}
+
+.btn{
+    position: absolute;
+    top: 71%;
+    left: auto;
+    nav-left: auto;
+    transform: translate(-50%-50%);
+}
+
+button{
+    background: transparent;
+    color: #f6f6f6;
+    margin: 0%;
+    width: 140px;
+    height:40px;
+    font-family:sans-serif;
+    font-size: 20px;
+    border-color: #3768f1;
+    font-weight: 400;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    transition: margin-right 1s, color 0.5s;
+}
+
+
+  /*---------------Navigation style---------------*/
+#nav{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background: var(--text-light);
+    flex-direction: column;
+ }
+ 
+ #nav .collapse{
+    max-height: 0px;
+    overflow-y: hidden;
+ }
+ 
+ #nav .collapse ul{
+    flex-direction: column;
+    text-align: center;
+    padding: 0 3rem;
+ }
+ 
+ #nav .collapse ul>li{
+    padding: 0 1.5rem;
+    line-height: 3rem;
+    font-size: 1.1em;
+ }
+ 
+ #nav .toggle-btn>button{
+    font-size: 2em;
+    position: absolute;
+    right: 0; top: 0;
+    padding: 1rem;
+    color: var(--text-dark2);
+ }
+ 
+ #nav .flex-initial ul button{
+    display: none;
+ }
+ 
+ .active{
+    max-height: 50vh !important;
+ }
+
+ /*---------------/Navigation style---------------*/
